@@ -1,0 +1,10 @@
+From: demo@example.invalid
+To: recipient@example.invalid
+Subject: Prototype meeting reminder
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+This is fictional sample data for offline development.
+The prototype review is scheduled for tomorrow at 15:00 Japan time.
+Please review the Discord commands, reminder recovery, and backup procedure.
+No Gmail account, API key, or external LLM is used by this preview.

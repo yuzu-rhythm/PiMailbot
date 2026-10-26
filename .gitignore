@@ -1,0 +1,38 @@
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+client_secret*.json
+credentials*.json
+token.json
+
+# Python tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.ruff_cache/
+.DS_Store
+
+# Runtime state, images, logs, and backups
+data/
+runtime/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.db-wal
+*.db-shm
+*.bak
+*.backup
+*.log
+*.jsonl
+*.eml
+!examples/demo.eml

@@ -1,0 +1,22 @@
+[Unit]
+Description=Local read-only desk dashboard
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=mailbot
+Group=mailbot
+WorkingDirectory=/opt/mailbot-dashboard
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/mailbot-dashboard/venv/bin/python -m mailbot.dashboard --config /var/lib/mailbot/dashboard/config.json
+Restart=on-failure
+RestartSec=10
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja" translate="no">
+<head>
+  <meta charset="utf-8"><meta name="google" content="notranslate"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>今日の予定</title><link rel="stylesheet" href="/style.css"><script src="/timeline.js" defer></script><script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="date-block"><p id="year"></p><h1 id="date">今日の予定</h1></div>
+    <div class="weather"><span class="weather-mark" aria-hidden="true">—</span><div><h2>天気</h2><p>地域を設定してください</p></div></div>
+    <time id="clock" class="clock" aria-label="日本時間">--:--</time>
+  </header>
+  <section id="mail-alert" class="mail-alert" aria-labelledby="mail-alert-heading" hidden>
+    <div class="mail-alert-main"><div><p class="mail-alert-label">メールを確認してください <time id="mail-alert-clock" aria-label="日本時間"></time></p><h2 id="mail-alert-heading">未読メールがあります</h2></div><p class="mail-alert-total"><span id="mail-alert-count">0</span><span class="mail-alert-unit">件</span></p></div>
+    <div id="mail-alert-accounts" class="mail-alert-accounts"></div>
+    <p id="mail-alert-note" class="mail-alert-note" role="status"></p>
+  </section>
+  <main>
+    <div class="workspace">
+      <section class="tasks" aria-labelledby="tasks-heading">
+        <div class="section-heading"><h2 id="tasks-heading">やること</h2><span class="quiet">Todoist</span></div>
+        <p id="tasks-status" class="source-status">取得しています</p>
+        <div id="tasks"></div>
+      </section>
+      <section class="agenda" aria-labelledby="agenda-heading">
+        <div class="section-heading"><h2 id="agenda-heading">一日の予定</h2><span id="calendar-status" class="source-status"></span></div>
+        <div id="calendar-filters" class="filters" aria-label="表示するカレンダー"></div>
+        <div id="next-event" class="next-event"></div>
+        <div id="events"></div>
+      </section>
+      <aside>
+        <section aria-labelledby="mail-heading">
+          <div class="section-heading"><h2 id="mail-heading">受信トレイ</h2><span class="quiet">未読</span></div>
+          <div id="mailboxes"></div>
+          <p id="mail-status" class="source-status"></p>
+        </section>
+        <section class="finance" aria-labelledby="finance-heading">
+          <h2 id="finance-heading">今日の支出</h2><p class="amount">—<span>円</span></p>
+          <p class="quiet">家計簿は未設定です</p>
+        </section>
+      </aside>
+    </div>
+    <section class="week-section" aria-labelledby="week-heading">
+      <div class="section-heading"><h2 id="week-heading">これから一週間</h2><span id="week-status" class="quiet"></span></div>
+      <div id="week" class="week"></div>
+    </section>
+  </main>
+  <footer><span id="health" role="status">接続しています</span><span id="updated"></span></footer>
+</body>
+</html>

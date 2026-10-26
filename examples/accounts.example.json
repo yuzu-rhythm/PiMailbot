@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "accounts": [
+    {
+      "id": "personal",
+      "email": "personal@example.invalid",
+      "enabled": false,
+      "guild_id": 101,
+      "channel_id": 202,
+      "token_path": "data/google/personal/token.json",
+      "database_path": "data/google/personal/notifications.sqlite3"
+    }
+  ]
+}

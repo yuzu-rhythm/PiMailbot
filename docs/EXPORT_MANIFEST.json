@@ -1,0 +1,302 @@
+{
+  "description": "Allowlisted source snapshot. Documentation and synthetic demo files are authored separately.",
+  "files": [
+    {
+      "path": "src/mailbot/__init__.py",
+      "source_sha256": "bfc2fdf1e3a1de5f0d41a3812ed4094a452c7cfc267f787bbcbfdb036a990d2b",
+      "copy_sha256": "bfc2fdf1e3a1de5f0d41a3812ed4094a452c7cfc267f787bbcbfdb036a990d2b"
+    },
+    {
+      "path": "src/mailbot/__main__.py",
+      "source_sha256": "cf9de8764d76c32b1408786c5891de4bd2ec608d952e64a70bb493036207c0e2",
+      "copy_sha256": "cf9de8764d76c32b1408786c5891de4bd2ec608d952e64a70bb493036207c0e2"
+    },
+    {
+      "path": "src/mailbot/api_credentials.py",
+      "source_sha256": "7f929e375dccf1d97140bf91aa410d47452fe8daf44a1101d2b4032e2c35b43e",
+      "copy_sha256": "7f929e375dccf1d97140bf91aa410d47452fe8daf44a1101d2b4032e2c35b43e"
+    },
+    {
+      "path": "src/mailbot/attachments.py",
+      "source_sha256": "93d5fc17e9e9e76eae6a18d0ceea79c8b9de2873e6a94dc9be9c46bb24aa9e22",
+      "copy_sha256": "93d5fc17e9e9e76eae6a18d0ceea79c8b9de2873e6a94dc9be9c46bb24aa9e22"
+    },
+    {
+      "path": "src/mailbot/calendar_client.py",
+      "source_sha256": "8d8bed34cf85f17c5471bb5728e21fff397e5beb8076638de5eee262934d9aa0",
+      "copy_sha256": "8d8bed34cf85f17c5471bb5728e21fff397e5beb8076638de5eee262934d9aa0"
+    },
+    {
+      "path": "src/mailbot/category_label_migration.py",
+      "source_sha256": "98c4c7c475ced646ed3558e026a04c7aa20362888f6a0470bf6d59cb209706b4",
+      "copy_sha256": "98c4c7c475ced646ed3558e026a04c7aa20362888f6a0470bf6d59cb209706b4"
+    },
+    {
+      "path": "src/mailbot/config.py",
+      "source_sha256": "6a6caa68fa5c0d3e2376c845c3522fbd26cea2b55920de705c22a1d11475ceb0",
+      "copy_sha256": "6a6caa68fa5c0d3e2376c845c3522fbd26cea2b55920de705c22a1d11475ceb0"
+    },
+    {
+      "path": "src/mailbot/dashboard.py",
+      "source_sha256": "2a67f7b1c3dfd89ed2617ec2805888b58aaa007e902e392322cdfbd972e5e2cb",
+      "copy_sha256": "2a67f7b1c3dfd89ed2617ec2805888b58aaa007e902e392322cdfbd972e5e2cb"
+    },
+    {
+      "path": "src/mailbot/dashboard_static/app.js",
+      "source_sha256": "ff0a5db5ab35bc4de92740f66d28c8df7f10e77c7fc1532c30342282ec629773",
+      "copy_sha256": "ff0a5db5ab35bc4de92740f66d28c8df7f10e77c7fc1532c30342282ec629773"
+    },
+    {
+      "path": "src/mailbot/dashboard_static/index.html",
+      "source_sha256": "b4254b6a34678905cdfe6af3ab44cca4265bd775ba93332a3d8a524724130a87",
+      "copy_sha256": "b4254b6a34678905cdfe6af3ab44cca4265bd775ba93332a3d8a524724130a87"
+    },
+    {
+      "path": "src/mailbot/dashboard_static/style.css",
+      "source_sha256": "a00be00f5023e4243e5ba1a97bb0907130513870e77d08a639446b300fd1206b",
+      "copy_sha256": "a00be00f5023e4243e5ba1a97bb0907130513870e77d08a639446b300fd1206b"
+    },
+    {
+      "path": "src/mailbot/dashboard_static/timeline.js",
+      "source_sha256": "6b5c2365f8a4acbd73b5bf9e4cdf6376901fe1e6f1da45e952ec3faf86dbecec",
+      "copy_sha256": "6b5c2365f8a4acbd73b5bf9e4cdf6376901fe1e6f1da45e952ec3faf86dbecec"
+    },
+    {
+      "path": "src/mailbot/discord_adapter.py",
+      "source_sha256": "2312ba3b85343871a0c0571fc9b5dcfad263aeb4c9f6e940d5076f4b08f1e569",
+      "copy_sha256": "2312ba3b85343871a0c0571fc9b5dcfad263aeb4c9f6e940d5076f4b08f1e569"
+    },
+    {
+      "path": "src/mailbot/gemini_summary.py",
+      "source_sha256": "a6f89d2698340763230d0811183812316dab4db0d4e5b882ead9e52785888770",
+      "copy_sha256": "a6f89d2698340763230d0811183812316dab4db0d4e5b882ead9e52785888770"
+    },
+    {
+      "path": "src/mailbot/gmail_accounts.py",
+      "source_sha256": "45ee2d8b1187d9c0fd91afcaa8bb3cd8dcf6c3a12177abc414a8d21affab3cd8",
+      "copy_sha256": "45ee2d8b1187d9c0fd91afcaa8bb3cd8dcf6c3a12177abc414a8d21affab3cd8"
+    },
+    {
+      "path": "src/mailbot/gmail_client.py",
+      "source_sha256": "bd05a59f8f2512cd1e102f522b5722e4ce9eb272734ee60a5d57f4a5f589224a",
+      "copy_sha256": "bd05a59f8f2512cd1e102f522b5722e4ce9eb272734ee60a5d57f4a5f589224a"
+    },
+    {
+      "path": "src/mailbot/gmail_notifier.py",
+      "source_sha256": "d425b3a4cbdc51a8f62fd69497d4abda48ff217cfe2ae809fb41d98c7267d7b6",
+      "copy_sha256": "d425b3a4cbdc51a8f62fd69497d4abda48ff217cfe2ae809fb41d98c7267d7b6"
+    },
+    {
+      "path": "src/mailbot/gmail_sync.py",
+      "source_sha256": "bbfc6183554f49fa94d45e1d32bc2f956200545e31fcf7c31672462411c4aea5",
+      "copy_sha256": "bbfc6183554f49fa94d45e1d32bc2f956200545e31fcf7c31672462411c4aea5"
+    },
+    {
+      "path": "src/mailbot/mail_categories.py",
+      "source_sha256": "0c07c361afabca158a938cc7d0fe5d9ae3c0a64745bc1eaf348b06bdd5e7fa11",
+      "copy_sha256": "0c07c361afabca158a938cc7d0fe5d9ae3c0a64745bc1eaf348b06bdd5e7fa11"
+    },
+    {
+      "path": "src/mailbot/mail_history.py",
+      "source_sha256": "36b461fcff7cfc4c3cf3cf10d2fd99f92c3019c6408d4d7fa78208565c10e737",
+      "copy_sha256": "36b461fcff7cfc4c3cf3cf10d2fd99f92c3019c6408d4d7fa78208565c10e737"
+    },
+    {
+      "path": "src/mailbot/mail_label_names.py",
+      "source_sha256": "1c85380dafb6abbf16c6de8c305d9c8f2e405e1fe1c12e087028f32ff921777c",
+      "copy_sha256": "1c85380dafb6abbf16c6de8c305d9c8f2e405e1fe1c12e087028f32ff921777c"
+    },
+    {
+      "path": "src/mailbot/mail_preview.py",
+      "source_sha256": "ee84cf53776c1c2bd6baeed98cbe2e05d4547f8885a0390ba32738e163d191f8",
+      "copy_sha256": "ee84cf53776c1c2bd6baeed98cbe2e05d4547f8885a0390ba32738e163d191f8"
+    },
+    {
+      "path": "src/mailbot/mail_review.py",
+      "source_sha256": "dfe378a9c7e032cb056dda6cf191e1f60e97862e289eaefc94fcee6796676c06",
+      "copy_sha256": "dfe378a9c7e032cb056dda6cf191e1f60e97862e289eaefc94fcee6796676c06"
+    },
+    {
+      "path": "src/mailbot/mail_triage.py",
+      "source_sha256": "b6c1da00b21a1a0517f06592601f13270f8aeeed3f03c746188b6a3dc0194ee1",
+      "copy_sha256": "b6c1da00b21a1a0517f06592601f13270f8aeeed3f03c746188b6a3dc0194ee1"
+    },
+    {
+      "path": "src/mailbot/mail_workflow.py",
+      "source_sha256": "ca5be6a73e7e9edddb1b9306970ca39659a45b7ba816b94cc48873b60a7906c2",
+      "copy_sha256": "ca5be6a73e7e9edddb1b9306970ca39659a45b7ba816b94cc48873b60a7906c2"
+    },
+    {
+      "path": "src/mailbot/storage.py",
+      "source_sha256": "d52fcf0e77ef96aa40783ae995dcff86d8ca06724c6c5b9061b6697016b286b7",
+      "copy_sha256": "d52fcf0e77ef96aa40783ae995dcff86d8ca06724c6c5b9061b6697016b286b7"
+    },
+    {
+      "path": "src/mailbot/task_export.py",
+      "source_sha256": "c7290034c36105b81e16d36dc5b8e222ab67d62364238e0e8a289a318767eb00",
+      "copy_sha256": "c7290034c36105b81e16d36dc5b8e222ab67d62364238e0e8a289a318767eb00"
+    },
+    {
+      "path": "src/mailbot/todoist_client.py",
+      "source_sha256": "eb34a55e2ef141e4b071017ec31650d8ac4ba54d3a4bc30cb5feacb2cfa1e29d",
+      "copy_sha256": "eb34a55e2ef141e4b071017ec31650d8ac4ba54d3a4bc30cb5feacb2cfa1e29d"
+    },
+    {
+      "path": "src/mailbot/todoist_sync.py",
+      "source_sha256": "a4717c89833468a050d496988c102de40f509859e245613e883cbf399f91bed7",
+      "copy_sha256": "a4717c89833468a050d496988c102de40f509859e245613e883cbf399f91bed7"
+    },
+    {
+      "path": "tests/test_gmail_accounts.py",
+      "source_sha256": "4118adc054a1c92a4def72b32e22d5d2abbd400fc1965d3b66923657d4aa8155",
+      "copy_sha256": "4118adc054a1c92a4def72b32e22d5d2abbd400fc1965d3b66923657d4aa8155"
+    },
+    {
+      "path": "tests/test_gmail_auth.py",
+      "source_sha256": "baaee40c8b26feb91f4fbb66c600e4a071a6a59bded4aa6fb8d0dcee752b87da",
+      "copy_sha256": "baaee40c8b26feb91f4fbb66c600e4a071a6a59bded4aa6fb8d0dcee752b87da"
+    },
+    {
+      "path": "tests/test_gmail_config.py",
+      "source_sha256": "6e326eb21a457bf2c4ee50a0d7dcd665967882ba1d0088c6ce2389ae4b5d2b7d",
+      "copy_sha256": "6e326eb21a457bf2c4ee50a0d7dcd665967882ba1d0088c6ce2389ae4b5d2b7d"
+    },
+    {
+      "path": "tests/test_gmail_notifier.py",
+      "source_sha256": "04b24ccef86fa3eeb037cc6cdc5c7b58bf8dff3fc40c1f62e5bf01d6e94e9764",
+      "copy_sha256": "04b24ccef86fa3eeb037cc6cdc5c7b58bf8dff3fc40c1f62e5bf01d6e94e9764"
+    },
+    {
+      "path": "tests/test_gmail_sync.py",
+      "source_sha256": "7b263e86f15b516d6512ad7a3a06a154a6825dc53f8241ad161149ae2793d3a7",
+      "copy_sha256": "a81ca404434595d7e388a9abad45fb3801b8f122749e374ff4067c52d0a13000"
+    },
+    {
+      "path": "tests/test_mail_cli.py",
+      "source_sha256": "2d23ca073e6720aed4819904ca62de204978416bbeef720414156055dde4c059",
+      "copy_sha256": "2d23ca073e6720aed4819904ca62de204978416bbeef720414156055dde4c059"
+    },
+    {
+      "path": "tests/test_mail_preview.py",
+      "source_sha256": "c16c4b4ec302486d186b258202ea846afe70a5202b227e9aa09e57d22d7a61e8",
+      "copy_sha256": "c16c4b4ec302486d186b258202ea846afe70a5202b227e9aa09e57d22d7a61e8"
+    },
+    {
+      "path": "tests/test_mail_tasks.py",
+      "source_sha256": "bceb7dbf3ef2551047c827a140312c70a7a71aa65dc54099a19f5863cc2d8460",
+      "copy_sha256": "bceb7dbf3ef2551047c827a140312c70a7a71aa65dc54099a19f5863cc2d8460"
+    },
+    {
+      "path": "tests/test_mail_workflow.py",
+      "source_sha256": "fbba5f92af8c62528781d95cd40e8b20668a476cffdc2f8c430dfa48dc2c57c7",
+      "copy_sha256": "fbba5f92af8c62528781d95cd40e8b20668a476cffdc2f8c430dfa48dc2c57c7"
+    },
+    {
+      "path": "tests/test_reminder.py",
+      "source_sha256": "6b81421f77bcb8f29fb9d16dbe49773dcc1be91767845f9e94cb8298a459ecec",
+      "copy_sha256": "6b81421f77bcb8f29fb9d16dbe49773dcc1be91767845f9e94cb8298a459ecec"
+    },
+    {
+      "path": "tests/test_run_discord.py",
+      "source_sha256": "122012a12f17694fa59f3791afdc1ac40fbcd085789c1a74c6797724d17fde7b",
+      "copy_sha256": "122012a12f17694fa59f3791afdc1ac40fbcd085789c1a74c6797724d17fde7b"
+    },
+    {
+      "path": "tests/test_security.py",
+      "source_sha256": "59427ef6f9018eb589ef99bb6305948eeb74f52984a4c5a277e0697e6e70bdf0",
+      "copy_sha256": "59427ef6f9018eb589ef99bb6305948eeb74f52984a4c5a277e0697e6e70bdf0"
+    },
+    {
+      "path": "tests/test_storage.py",
+      "source_sha256": "bd9a6cdd75217520010a5facec77ab5734e036278462f5b503f9fb3f27144263",
+      "copy_sha256": "bd9a6cdd75217520010a5facec77ab5734e036278462f5b503f9fb3f27144263"
+    },
+    {
+      "path": "tests/test_task_buttons.py",
+      "source_sha256": "3606694ef1a5a2777305dc340546352b338b4c64c283611406f90688b701ca05",
+      "copy_sha256": "3606694ef1a5a2777305dc340546352b338b4c64c283611406f90688b701ca05"
+    },
+    {
+      "path": "tests/test_task_export.py",
+      "source_sha256": "eed18a72c0413b880ed20555ae5daf07b943a04d85ca76b60f2b4ca62b4384da",
+      "copy_sha256": "eed18a72c0413b880ed20555ae5daf07b943a04d85ca76b60f2b4ca62b4384da"
+    },
+    {
+      "path": "tests/test_token_setup.py",
+      "source_sha256": "a92e9bbc18462a46ec823505a13fabf836ae2d14fd6a45efc0504ce0af53083d",
+      "copy_sha256": "65d1e0dcc5bfdefa1eede4b98ef750f06c9e559adcfc786674521ccca2264ad3"
+    },
+    {
+      "path": "pyproject.toml",
+      "source_sha256": "288209a6de3e1349a7e19488764d5023f16a895ca7baf89d7c5ca523194c7034",
+      "copy_sha256": "a4e0ca81905c44bda7fd47a0a166a7fb9ccca8a693862989e7e0bb6921d576d1"
+    },
+    {
+      "path": ".env.example",
+      "source_sha256": "4660076d2506a3ecfb0b1d0364107b4eeeaf95950abcef14b7807441295a887d",
+      "copy_sha256": "4660076d2506a3ecfb0b1d0364107b4eeeaf95950abcef14b7807441295a887d"
+    },
+    {
+      "path": ".gitignore",
+      "source_sha256": "e650946f5a9f7c8ee6e3fd13ca69524f48532e19aa508a2069e04a77c85ef7c4",
+      "copy_sha256": "4a4bbd87c235fcb8f25a35ac3bb63989abf583a783673e9f72d995c7b945e79e"
+    },
+    {
+      "path": "examples/demo.eml",
+      "source_sha256": "e1686f4bf66131722481b4d70686ac85378f7ee6c672bcd4b84f1b9bc2e96ea9",
+      "copy_sha256": "e1686f4bf66131722481b4d70686ac85378f7ee6c672bcd4b84f1b9bc2e96ea9"
+    },
+    {
+      "path": "scripts/setup_gemini_key.py",
+      "source_sha256": "e433adc1e4ae80b8cb79a5ca2c4fdec659e6c5924e9ddf0525953d416d7c501b",
+      "copy_sha256": "e433adc1e4ae80b8cb79a5ca2c4fdec659e6c5924e9ddf0525953d416d7c501b"
+    },
+    {
+      "path": "scripts/setup_discord_token.py",
+      "source_sha256": "15da6d3900b96079a6248544ef7dc8f7144cfc753da724e966bb887e80546218",
+      "copy_sha256": "15da6d3900b96079a6248544ef7dc8f7144cfc753da724e966bb887e80546218"
+    },
+    {
+      "path": "scripts/setup_gmail.py",
+      "source_sha256": "60c160c0e7d2740c368c5414c7ac3f15dde6be368cd2d806069a29eb1780c6ed",
+      "copy_sha256": "60c160c0e7d2740c368c5414c7ac3f15dde6be368cd2d806069a29eb1780c6ed"
+    },
+    {
+      "path": "scripts/setup_calendar.py",
+      "source_sha256": "110d0e7d91a83fbea9bfdd027d174f7805cd8f6a2efd059ac3da7813dde0019e",
+      "copy_sha256": "110d0e7d91a83fbea9bfdd027d174f7805cd8f6a2efd059ac3da7813dde0019e"
+    },
+    {
+      "path": "scripts/setup_todoist_token.py",
+      "source_sha256": "e070049857b5909768d928897d49f7ccfd3797672a090454fe076c02f8cdd27b",
+      "copy_sha256": "e070049857b5909768d928897d49f7ccfd3797672a090454fe076c02f8cdd27b"
+    },
+    {
+      "path": "scripts/setup_gmail_account.py",
+      "source_sha256": "6f5a70c3d6794828a78f7d9b978c01dffaa436102308da7d36d0e366f4a7aa8f",
+      "copy_sha256": "6f5a70c3d6794828a78f7d9b978c01dffaa436102308da7d36d0e366f4a7aa8f"
+    },
+    {
+      "path": "scripts/run_discord.py",
+      "source_sha256": "3869296a7e597db2a05c7adb3f993d4cd3bde25478d3c3d69fbe444d768e4e94",
+      "copy_sha256": "3869296a7e597db2a05c7adb3f993d4cd3bde25478d3c3d69fbe444d768e4e94"
+    },
+    {
+      "path": "deploy/mailbot.service",
+      "source_sha256": "45d8035040fd5dc8972cd3acf6e505244a96782600a9912dbc3fdc0d21ea9538",
+      "copy_sha256": "45d8035040fd5dc8972cd3acf6e505244a96782600a9912dbc3fdc0d21ea9538"
+    },
+    {
+      "path": "deploy/mailbot-dashboard.service",
+      "source_sha256": "c36fab1369b9c1a7c14c45a3dd8cf624d724b8b8ec476e56a76fa9d4cf10dd8a",
+      "copy_sha256": "c36fab1369b9c1a7c14c45a3dd8cf624d724b8b8ec476e56a76fa9d4cf10dd8a"
+    }
+  ],
+  "public_adaptations": [
+    "README and public-only documentation authored separately",
+    "Synthetic dashboard demo and example configurations added",
+    "Tests: real Discord guild ID replaced with synthetic fixture",
+    "Packaging metadata and .gitignore updated in public copy",
+    "One test file: trailing blank line removed for diff-check"
+  ]
+}

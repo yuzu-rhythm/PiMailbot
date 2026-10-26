@@ -1,0 +1,25 @@
+[Unit]
+Description=Offline first Discord Mailbot prototype
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=mailbot
+Group=mailbot
+WorkingDirectory=/opt/mailbot/current
+EnvironmentFile=/etc/mailbot/mailbot.env
+StateDirectory=mailbot
+StateDirectoryMode=0700
+ExecStart=/usr/bin/env MAILBOT_DATABASE_PATH=/var/lib/mailbot/mailbot.sqlite3 MAILBOT_IMAGE_DIR=/var/lib/mailbot/images /opt/mailbot/current/.venv/bin/python -m mailbot discord
+Restart=on-failure
+RestartSec=10
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/mailbot
+
+[Install]
+WantedBy=multi-user.target
